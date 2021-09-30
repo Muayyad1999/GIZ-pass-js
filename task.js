@@ -1,5 +1,5 @@
-let fs = require('fs'); // Please use Node.js
-let Input_Arr = fs.readFileSync(__dirname + '/\data.txt').toString().split(','); // Reading data.txt numbers from repo directory
+let fs = require('fs'); // Please Use Node.js
+let Input_Arr = fs.readFileSync(__dirname + '/\data.txt').toString().split(','); // Reading data.txt Numbers From Repo Directory
 
 const Numbers = [5,8,0,1,9,11,15,16]; 
 
@@ -45,7 +45,7 @@ function bblSort_DESC(arr) // Bubble Sort Function For Descending Sorting
 }
 
 bblSort_ASC(Input_Arr); // Calling Bubble Ascending Sort Function For Input Array From data.txt
-Save_Output()
+Save_Output() // Calling The Save Output Function
 console.log("Input Array List After ASC Sorting: ", Input_Arr)
 bblSort_DESC(Input_Arr); // Calling Bubble Descending Sort Function For Input Array From data.txt
 console.log("Input Array List After DESC Sorting: ", Input_Arr)
